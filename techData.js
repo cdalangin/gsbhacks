@@ -32,24 +32,24 @@ const express =
 const angular =
 {
     "name": "Angular",
-    "type": "Backend",
+    "type": "Frontend",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png",
     "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. ",
     "documentation": "https://angular.io/docs",
     "tutorialA": "https://youtu.be/k5E2AVpwsko"
 }
 
-const vuejs = 
+const vuejs =
 {
     "name": "Vuejs",
-    "type": "Backend",
+    "type": "Frontend",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/768px-Vue.js_Logo_2.svg.png",
     "description": "it is an open source progressive JavaScript framework used to develop interactive web surfaces. It focuses on the view layer and can easily be implemented into large projects for  front-end development.",
     "documentation": "https://vuejs.org/v2/guide/",
     "tutorialA": " https://youtu.be/qZXt1Aom3Cs"
 }
 
-const jquery = 
+const jquery =
 {
     "name": "jQuery",
     "type": "Backend",
@@ -59,7 +59,7 @@ const jquery =
     "tutorialA": "https://youtu.be/ScoURsEM_yU"
 }
 
-const flask = 
+const flask =
 {
     "name": "Flask",
     "type": "Backend",
@@ -69,7 +69,7 @@ const flask =
     "tutorialA": "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
 }
 
-const django = 
+const django =
 {
     "name": "Django",
     "type": "Backend",
@@ -79,7 +79,7 @@ const django =
     "tutorialA": "https://www.youtube.com/watch?v=F5mRW0jo-U4"
 }
 
-const cherrypy = 
+const cherrypy =
 {
     "name": "CherryPy",
     "type": "Backend",
@@ -89,7 +89,7 @@ const cherrypy =
     "tutorialA": "https://www.youtube.com/watch?v=oCmRGeq8tpA"
 }
 
-const blade = 
+const blade =
 {
     "name": "Blade",
     "type": "Backend",
@@ -99,7 +99,7 @@ const blade =
     "tutorialA": "youtube.com/watch?v=dTVVa2gfht8"
 }
 
-const dropwizard = 
+const dropwizard =
 {
     "name": "Dropwizard",
     "type": "Backend",
@@ -109,7 +109,7 @@ const dropwizard =
     "tutorialA": "https://www.youtube.com/watch?v=l1TD2sYEgc8"
 }
 
-const gwt = 
+const gwt =
 {
     "name": "GWT",
     "type": "Backend",
@@ -142,9 +142,20 @@ const tailwind =
 }
 
 
-const sass =
+const java =
 {
-    "name": "Sass",
+    "name": "Java",
+    "type": "Styles",
+    "logo": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+    "description": "A a CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.",
+    "documentation": "https://sass-lang.com/documentation",
+    "tutorialA": "https://www.youtube.com/watch?v=_a5j7KoflTs",
+    "tutorialB": "https://www.youtube.com/watch?v=Zz6eOVaaelI"
+}
+
+const python =
+{
+    "name": "Python",
     "type": "Styles",
     "logo": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
     "description": "A a CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.",

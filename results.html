@@ -47,31 +47,58 @@
     </section>
 
     <!-- This is where the suggestions go -->
-    <section class="results d-flex m-0 flex-column justify-content-center align-items-center">
+    <section class="results d-flex m-0  overflow-hidden flex-row justify-content-center align-items-center">
 
-        <div
-            class="container w-50 bg-light rounded-3 py-5 mt-3  d-flex flex-column justify-content-center align-items-center">
+        <div id="stylesBox"
+            class="container w-50 bg-light rounded-3 py-5 mt-3 mx-5 d-flex flex-column justify-content-center align-items-center">
 
-            <span class="label rounded-pill w-75 text-center p-1">Frontend</span>
+            <span class="label rounded-pill w-75 text-center p-1">Styles</span>
 
 
 
             <div class="col-xs-12 col-md-8  h-100 d-flex flex-column justify-content-evenly align-items-center">
                 <div class=" d-flex flex-column justify-content-evenly align-items-center">
-                    <img src="./img/htmllogo.png" id="logo" class="img-fluid w-75 mt-3">
+                    <img src="./img/htmllogo.png" id="stylesLogo" class="img-fluid w-75 mt-3">
                 </div>
 
                 <div class="text-center px-3">
-                    <h1 class="stackname">React</h1>
+                    <h1 class="stackname" id="stylesName">NAME</h1>
                 </div>
 
-                <p id="desc" class="my-4">Insert description here</p>
+                <p id="stylesDesc" class="my-4">Insert description here</p>
 
-                <a href="" class="documentation w-75 text-center my-3">DOCUMENTATION</a>
-                <h3 class="tut my-3">Tutorial</h3>
+                <a href="" class="documentation w-75 text-center my-3" id="stylesDoc">DOCUMENTATION</a>
+                <h3 class="tut my-3" id="stylesTut">Tutorial</h3>
                 <div class="d-flex justify-content-evenly w-100">
-                    <a href="" id="tutoriala" class="tutorials text-center">Tutorial A</a>
-                    <a href="" id="tutorialb" class="tutorials text-center">Tutorial B</a>
+                    <a href="" id="stylesTutoriala" class="tutorials text-center">Tutorial A</a>
+                    <a href="" id="stylesTutorialb" class="tutorials text-center">Tutorial B</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="backendBox"
+            class="container w-50 bg-light rounded-3 py-5 mt-3 mx-5 d-flex flex-column justify-content-center align-items-center">
+
+            <span class="label rounded-pill w-75 text-center p-1">Backend</span>
+
+
+
+            <div class="col-xs-12 col-md-8  h-100 d-flex flex-column justify-content-evenly align-items-center">
+                <div class=" d-flex flex-column justify-content-evenly align-items-center">
+                    <img src="./img/htmllogo.png" id="backLogo" class="img-fluid w-75 mt-3">
+                </div>
+
+                <div class="text-center px-3">
+                    <h1 class="stackname" id="backName">NAME</h1>
+                </div>
+
+                <p id="backDesc" class="my-4">Insert description here</p>
+
+                <a href="" class="documentation w-75 text-center my-3" id="backDoc">DOCUMENTATION</a>
+                <h3 class="tut my-3" id="backTut">Tutorial</h3>
+                <div class="d-flex justify-content-evenly w-100">
+                    <a href="" id="backTutoriala" class="tutorials text-center">Tutorial A</a>
+                    <a href="" id="backTutorialb" class="tutorials text-center">Tutorial B</a>
                 </div>
             </div>
         </div>
