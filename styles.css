@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@900&display=swap');
+
+.main {
+    background-color: #96BAFF;
+}
+
+.start {
+    font-family: "Sansita";
+    color: #7C83FD;
+}
+
+.select-button {
+    background-color: #F2F2F2;
+}
