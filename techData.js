@@ -132,7 +132,7 @@ const gwt =
 
 //Frontend List
 
-const html = 
+const html =
 {
     "name": "HTML",
     "type": "Frontend",
@@ -143,7 +143,7 @@ const html =
     "tutorialB": "https://www.youtube.com/watch?v=RjHflb-QgVc"
 }
 
-const css = 
+const css =
 {
     "name": "CSS",
     "type": "Frontend",
@@ -152,6 +152,28 @@ const css =
     "documentation": "https://devdocs.io/css/",
     "tutorialA": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
     "tutorialB": "https://www.youtube.com/watch?v=J35jug1uHzE"
+}
+
+const java =
+{
+    "name": "Java",
+    "type": "Language",
+    "logo": "https://image.flaticon.com/icons/png/512/226/226777.png",
+    "description": "Java is the #1 programming language and development platform. It reduces costs, shortens development timeframes, drives innovation, and improves application services. With millions of developers running more than 51 billion Java Virtual Machines worldwide, Java continues to be the development platform of choice for enterprises and developers.",
+    "documentation": "https://docs.oracle.com/en/java/",
+    "tutorialA": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+    "tutorialB": "https://www.youtube.com/watch?v=Qgl81fPcLc8"
+}
+
+const python =
+{
+    "name": "Python",
+    "type": "Language",
+    "logo": "https://logodownload.org/wp-content/uploads/2019/10/python-logo.png",
+    "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
+    "documentation": "https://www.python.org/doc/",
+    "tutorialA": "https://www.youtube.com/watch?v=kqtD5dpn9C8",
+    "tutorialB": "https://www.youtube.com/watch?v=rfscVS0vtbw"
 }
 
 
@@ -177,29 +199,6 @@ const tailwind =
     "documentation": "https://tailwindcss.com/docs",
     "tutorialA": "https://scrimba.com/learn/tailwind",
     "tutorialB": "https://www.youtube.com/watch?v=UBOj6rqRUME"
-}
-
-
-const java =
-{
-    "name": "Java",
-    "type": "Styles",
-    "logo": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
-    "description": "A a CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.",
-    "documentation": "https://sass-lang.com/documentation",
-    "tutorialA": "https://www.youtube.com/watch?v=_a5j7KoflTs",
-    "tutorialB": "https://www.youtube.com/watch?v=Zz6eOVaaelI"
-}
-
-const python =
-{
-    "name": "Python",
-    "type": "Styles",
-    "logo": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
-    "description": "A a CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.",
-    "documentation": "https://sass-lang.com/documentation",
-    "tutorialA": "https://www.youtube.com/watch?v=_a5j7KoflTs",
-    "tutorialB": "https://www.youtube.com/watch?v=Zz6eOVaaelI"
 }
 
 const sass =

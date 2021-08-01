@@ -21,6 +21,10 @@ a {
     background-color: #F2F2F2;
 }
 
+.dropdownOption {
+    cursor: pointer;
+}
+
 
 /* Results */
 
@@ -70,7 +74,15 @@ a {
 .stackname {
     color: #7C83FD;
     font-family: "Sansita";
-    font-size: 4em;
+    font-size: 2.5em;
+}
+
+#frontendBox, #stylesBox, #backendBox, #designBox {
+    width: 30%
+}
+
+#frontendBox {
+    display: none
 }
 
 .quote {
