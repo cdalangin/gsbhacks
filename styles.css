@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita:wght@900&display=swap');
 
+/* Landing Page */
 .main {
     background-color: #96BAFF;
 }
@@ -11,4 +12,11 @@
 
 .select-button {
     background-color: #F2F2F2;
+}
+
+
+/* Results */
+
+.results {
+    background-color: #C1F6FF;
 }
