@@ -28,3 +28,153 @@ const express =
     "tutorialA": "https://youtu.be/L72fhGm1tfE",
     "tutorialB": "https://youtu.be/JlgKybraoy4"
 }
+
+const angular =
+{
+    "name": "Angular",
+    "type": "Backend",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png",
+    "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. ",
+    "documentation": "https://angular.io/docs",
+    "tutorialA": "https://youtu.be/k5E2AVpwsko"
+}
+
+const vuejs = 
+{
+    "name": "Vuejs",
+    "type": "Backend",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/768px-Vue.js_Logo_2.svg.png",
+    "description": "it is an open source progressive JavaScript framework used to develop interactive web surfaces. It focuses on the view layer and can easily be implemented into large projects for  front-end development.",
+    "documentation": "https://vuejs.org/v2/guide/",
+    "tutorialA": " https://youtu.be/qZXt1Aom3Cs"
+}
+
+const jquery = 
+{
+    "name": "jQuery",
+    "type": "Backend",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/1280px-JQuery_logo.svg.png",
+    "description": "It is a concise and quick JavaScript library. It can be used to simplify event handling, HTML document traversing, Ajax interactions. and animation for speedy website development.",
+    "documentation": "https://api.jquery.com",
+    "tutorialA": "https://youtu.be/ScoURsEM_yU"
+}
+
+const flask = 
+{
+    "name": "Flask",
+    "type": "Backend",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1024px-Flask_logo.svg.png",
+    "description": "A micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.",
+    "documentation": "https://flask-doc.readthedocs.io/en/latest/",
+    "tutorialA": "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
+}
+
+const django = 
+{
+    "name": "Django",
+    "type": "Backend",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/1920px-Django_logo.svg.png",
+    "description": "A Python-based free and open-source web framework that follows the model–template–views architectural pattern.",
+    "documentation": "https://docs.djangoproject.com/en/3.2/",
+    "tutorialA": "https://www.youtube.com/watch?v=F5mRW0jo-U4"
+}
+
+const cherrypy = 
+{
+    "name": "CherryPy",
+    "type": "Backend",
+    "logo": "https://cherrypy.github.io/images/cherrypy.png",
+    "description": "An object-oriented web application framework using the Python programming language. It is designed for rapid development of web applications by wrapping the HTTP protocol but stays at a low level and does not offer much more than what is defined in RFC 7231",
+    "documentation": "https://cherrypydocrework.readthedocs.io/",
+    "tutorialA": "https://www.youtube.com/watch?v=oCmRGeq8tpA"
+}
+
+const blade = 
+{
+    "name": "Blade",
+    "type": "Backend",
+    "logo": "https://avatars.githubusercontent.com/u/12623903?s=200&v=4",
+    "description": "An open-source lightweight templating engine that is part of the broader framework called Lavarel. The framework is used to create complex web-based applications in Java.",
+    "documentation": "https://javadoc.io/doc/com.bladejava/blade-mvc/latest/index.html",
+    "tutorialA": "youtube.com/watch?v=dTVVa2gfht8"
+}
+
+const dropwizard = 
+{
+    "name": "Dropwizard",
+    "type": "Backend",
+    "logo": "https://www.dropwizard.io/en/latest/_images/dropwizard-logo.svg",
+    "description": "An open-source Java framework for developing ops-friendly, high-performance RESTful backends. It was developed by Yammer to power their JVM based backend. Dropwizard provides best-of-breed Java libraries into one embedded application package.",
+    "documentation": "https://www.dropwizard.io/en/latest/getting-started.html",
+    "tutorialA": "https://www.youtube.com/watch?v=l1TD2sYEgc8"
+}
+
+const gwt = 
+{
+    "name": "GWT",
+    "type": "Backend",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/Gwt_logo.png",
+    "description": "An open-source set of tools that allows web developers to create and maintain JavaScript front-end applications in Java. Other than a few native libraries, everything is Java source that can be built on any supported platform with the included GWT Ant build files.",
+    "documentation": "http://www.gwtproject.org/doc/latest/DevGuide.html",
+    "tutorialA": "https://www.youtube.com/watch?v=ISYwZOxdfUw"
+}
+
+const bootstrap =
+{
+    "name": "Bootstrap",
+    "type": "Styles",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png",
+    "description": "A free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+    "documentation": "https://getbootstrap.com/docs/4.1/getting-started/introduction/",
+    "tutorialA": "https://www.freecodecamp.org/news/tag/bootstrap-4/",
+    "tutorialB": "https://www.youtube.com/watch?v=gqOEoUR5RHg"
+}
+
+const tailwind =
+{
+    "name": "Tailwind CSS",
+    "type": "Styles",
+    "logo": "https://iconape.com/wp-content/files/an/351546/svg/tailwind-css-seeklogo.com.svg",
+    "description": "A utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.",
+    "documentation": "https://tailwindcss.com/docs",
+    "tutorialA": "https://scrimba.com/learn/tailwind",
+    "tutorialB": "https://www.youtube.com/watch?v=UBOj6rqRUME"
+}
+
+
+const sass =
+{
+    "name": "Sass",
+    "type": "Styles",
+    "logo": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+    "description": "A a CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.",
+    "documentation": "https://sass-lang.com/documentation",
+    "tutorialA": "https://www.youtube.com/watch?v=_a5j7KoflTs",
+    "tutorialB": "https://www.youtube.com/watch?v=Zz6eOVaaelI"
+}
+
+const sass =
+{
+    "name": "Sass",
+    "type": "Styles",
+    "logo": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+    "description": "A CSS pre-processor that lets you use variables, mathematical operations, mixins, loops, functions, imports, and other interesting functionalities that make writing CSS much more powerful.",
+    "documentation": "https://sass-lang.com/documentation",
+    "tutorialA": "https://www.youtube.com/watch?v=_a5j7KoflTs",
+    "tutorialB": "https://www.youtube.com/watch?v=Zz6eOVaaelI"
+}
+
+const material =
+{
+    "name": "Material UI",
+    "type": "Styles",
+    "logo": "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
+    "description": "A library that allows us to import and use different components to create a user interface in our React applications. This saves a significant amount of time since the developers do not need to write everything from scratch.",
+    "documentation": "https://material-ui.com/getting-started/installation/",
+    "tutorialA": "https://www.youtube.com/watch?v=vyJU9efvUtQ"
+}
+
+
+
+
+
