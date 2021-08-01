@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="techData.js">
+    </script>
+</head>
+
+<body onload="load()">
+
+    <!-- This is where the info abt the selected tech goes -->
+    <section
+        class="results vh-100 vw-100 m-0 overflow-hidden d-flex flex-column justify-content-center align-items-center">
+        <div class="text-start w-100 px-3">
+            <h1 id="choice">React</h1>
+        </div>
+        <div class="container mw-50 bg-light rounded-3 p-3 mt-3">
+            <div class="row h-100">
+                <div class="col-xs-12 col-md-4 h-100  d-flex flex-column justify-content-center align-items-center">
+                    <span id="mainpill" class="label rounded-pill w-75 text-center p-1">Frontend</span>
+                    <div class=" d-flex flex-column justify-content-evenly align-items-center">
+                        <img src="#" id="logo" class="img-fluid h-75">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-8  h-100 d-flex flex-column justify-content-evenly align-items-center">
+                    <p id="desc">Insert description here</p>
+
+                    <a href="" id="documentation" class="documentation w-75 text-center">DOCUMENTATION</a>
+                    <h3 class="tut">Tutorial</h3>
+                    <div class="d-flex justify-content-evenly w-100">
+                        <a href="" id="tutoriala" class="tutorials text-center">Tutorial A</a>
+                        <a href="" id="tutorialb" class="tutorials text-center">Tutorial B</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- This is where the suggestions go -->
+    <section class="results d-flex m-0 flex-column justify-content-center align-items-center">
+
+        <div
+            class="container w-50 bg-light rounded-3 py-5 mt-3  d-flex flex-column justify-content-center align-items-center">
+
+            <span class="label rounded-pill w-75 text-center p-1">Frontend</span>
+
+
+
+            <div class="col-xs-12 col-md-8  h-100 d-flex flex-column justify-content-evenly align-items-center">
+                <div class=" d-flex flex-column justify-content-evenly align-items-center">
+                    <img src="./img/htmllogo.png" id="logo" class="img-fluid w-75 mt-3">
+                </div>
+
+                <div class="text-center px-3">
+                    <h1 class="stackname">React</h1>
+                </div>
+
+                <p id="desc" class="my-4">Insert description here</p>
+
+                <a href="" class="documentation w-75 text-center my-3">DOCUMENTATION</a>
+                <h3 class="tut my-3">Tutorial</h3>
+                <div class="d-flex justify-content-evenly w-100">
+                    <a href="" id="tutoriala" class="tutorials text-center">Tutorial A</a>
+                    <a href="" id="tutorialb" class="tutorials text-center">Tutorial B</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section
+        class="results vh-100 vw-100 m-0 overflow-hidden d-flex flex-column justify-content-center align-items-center">
+        <div class="row w-100">
+            <div class="col-xs-12 col-sm-6 text-center d-flex flex-column justify-content-around align-items-center">
+                <h1 class="quote">Let's get building!</h1>
+                <a href="index.html" id="startover" class="documentation w-75 text-center">START OVER</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 p-3 d-flex justify-content-center align-items-center">
+                <img src="img/webdev.svg" alt="Web Dev" class="img-fluid w-75">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

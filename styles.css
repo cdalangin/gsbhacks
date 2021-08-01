@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+/* Global */
+
+a {
+    text-decoration: none;
+}
 
 /* Landing Page */
 .main {
@@ -19,4 +26,54 @@
 
 .results {
     background-color: #C1F6FF;
+}
+
+#choice {
+    font-family: "Sansita";
+    font-size: 8em;
+    color: #7C83FD;
+}
+
+#desc {
+    color: #7C83FD;
+}
+
+.label {
+    color: #F2F2F2;
+    font-family: "Scope One";
+    background-color: #96BAFF;
+}
+
+.documentation {
+    background-color: #7C83FD;
+    font-family: "Scope One";
+    color: #F2F2F2;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tut {
+    color: #7C83FD;
+    font-family: "Sansita";
+}
+
+.tutorials {
+    background-color: #7C83FD;
+    font-family: "Scope One";
+    color: #F2F2F2;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.stackname {
+    color: #7C83FD;
+    font-family: "Sansita";
+    font-size: 4em;
+}
+
+.quote {
+    color: #7C83FD;
+    font-family: "Scope One";
 }

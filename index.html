@@ -13,7 +13,7 @@
     </script>
 </head>
 
-<body onload="load()">
+<body>
     <section class="main vh-100 m-0 overflow-hidden d-flex flex-column justify-content-center align-items-center">
         <div class="row">
             <div class="col-xs-12 col-sm-6 text-center d-flex justify-content-center align-items-center">
@@ -29,17 +29,25 @@
                     data-bs-toggle="dropdown" aria-expanded="false">
                     Select Tech Here
                 </button>
-                <ul class="dropdown-menu w-100">
-                    <li><a class="dropdown-item " href="/results/html.html">HTML</a></li>
-                    <li><a class="dropdown-item" href="#">React.js</a></li>
-                    <li><a class="dropdown-item" href="#">Angular.js</a></li>
-                    <li><a class="dropdown-item" href="#">Vue.js</a></li>
-                    <li><a class="dropdown-item" href="#">Flask</a></li>
-                    <li><a class="dropdown-item" href="#">Django</a></li>
+                <ul id="choiceDropdown" class="dropdown-menu w-100">
+                    <li>
+                        <p onclick="clickHandler(react)" value="html">React</p>
+                    </li>
+                    <li>
+                        <p onclick="clickHandler(angular)" value="html">Angular.js</p>
+                    </li>
+                    <li>
+                        <p onclick="clickHandler(vue)" value="html">Vue.js</p>
+                    </li>
+                    <li>
+                        <p onclick="clickHandler(flask)" value="html">Flask</p>
+                    </li>
+                    <li>
+                        <p onclick="clickHandler(django)" value="html">Django</p>
+                    </li>
                 </ul>
             </div>
         </div>
-
 
     </section>
 
